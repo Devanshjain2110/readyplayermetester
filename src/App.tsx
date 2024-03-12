@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <div className=''>
-      <AvatarCreator subdomain="demo" config={config} style={style} onAvatarExported={handleOnAvatarExported} />
+      <AvatarCreator subdomain="https://readyplayermetest-0xe5du.readyplayer.me?frameApi" config={config} style={style} onAvatarExported={handleOnAvatarExported} />
     </div>
   );
 }
